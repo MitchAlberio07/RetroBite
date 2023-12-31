@@ -1,0 +1,55 @@
+.app__chef-content p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #fff;
+    margin-top: 3rem;
+}
+.restau-image {
+    width: 50vw;
+    border-left: 10px solid var(--color-golden);
+    border-bottom: 10px solid var(--color-golden);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.app__aboutus {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;    
+}
+
+.app__aboutus-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.app__aboutus h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.aboutretro__img img {
+    border-left: 10px solid var(--color-golden);
+    border-bottom: 10px solid var(--color-golden);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .app__aboutus-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__aboutus-overlay img {
+        width: 80%;
+        height: 320px;
+    }
+}
